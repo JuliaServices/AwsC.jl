@@ -1,6 +1,9 @@
-name = "Example"
-uuid = "7876af07-990d-54b4-ab0e-23690620f79a"
+name = "AwsC"
+uuid = "e152505b-a699-490f-9541-997267120aa8"
 version = "1.0.0"
+
+[deps]
+aws_c_common_jll = "73048d1d-b8c4-5092-a58d-866c5e8d1e50"
 
 [compat]
 julia = "1.6"
