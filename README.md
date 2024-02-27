@@ -1,8 +1,13 @@
-Example Julia package repo.
+# AwsC.jl
 
-[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://JuliaLang.github.io/Example.jl/stable)
-[![](https://img.shields.io/badge/docs-dev-blue.svg)](https://JuliaLang.github.io/Example.jl/dev)
+Wrapper library for the https://github.com/awslabs/aws-c-common library.
 
-GitHub Actions : [![Build Status](https://github.com/JuliaLang/Example.jl/workflows/CI/badge.svg)](https://github.com/JuliaLang/Example.jl/actions?query=workflow%3ACI+branch%3Amaster)
+The `LibAwsC` module (exported) aims to directly wrap and expose aws-c-common functionality (matching
+data structures and api functions exactly).
 
-[![codecov.io](http://codecov.io/github/JuliaLang/Example.jl/coverage.svg?branch=master)](http://codecov.io/github/JuliaLang/Example.jl?branch=master)
+The functions and structures in `AwsC` are more Julia-like and are intended to be more user-friendly,
+while using `LibAwsC` under the hood.
+
+GitHub Actions : [![Build Status](https://github.com/JuliaServices/AwsC.jl/workflows/CI/badge.svg)](https://github.com/JuliaServices/AwsC.jl/actions?query=workflow%3ACI+branch%3Amaster)
+
+[![codecov.io](http://codecov.io/github/JuliaServices/AwsC.jl/coverage.svg?branch=master)](http://codecov.io/github/JuliaServices/AwsC.jl?branch=master)
