@@ -1,4 +1,4 @@
-module Example
+module AwsC
 export hello, domath
 
 """
