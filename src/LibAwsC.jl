@@ -1,7 +1,7 @@
 module LibAwsC
 
 # using aws_c_common_jll
-const libaws_c_common = "/app/aws-crt/lib/libaws-c-common.1.0.0.dylib"
+const libaws_c_common = "/app/aws-crt/lib/libaws-c-common.so"
 
 const aws_allocator = Cvoid
 
